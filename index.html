@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flexbox - Freelancer Website</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4f427e5022.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Clients & Work</a>
+        <a href="#">Contact Us</a>
+    </nav>
+
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Freelance Web Developer</h1>
+            <p><i class="fas fa-map-marker-alt"></i> Auckland, Manukau</p>
+            <a href="#" class="button">Contact Us Here</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>My Services</h2>
+        <section class="services-container">
+            <article class="service">
+                <h3>Web Design</h3>
+                <div class="icon">
+                    <i class="fas fa-pen-nib"></i>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi qui labore suscipit placeat laborum, pariatur ipsa impedit delectus magnam ea facilis. Nobis consectetur recusandae delectus in unde nemo tempore cumque.</p>
+            </article>
+            <article class="service">
+                <h3>App Development</h3>
+                <div class="icon">
+                    <i class="fab fa-android"></i>
+                    <i class="fab fa-apple"></i>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi qui labore suscipit placeat laborum, pariatur ipsa impedit delectus magnam ea facilis. Nobis consectetur recusandae delectus in unde nemo tempore cumque.</p>
+            </article>
+            <article class="service">
+                <h3>Social Media</h3>
+                <div class="icon">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook-square"></i>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi qui labore suscipit placeat laborum, pariatur ipsa impedit delectus magnam ea facilis. Nobis consectetur recusandae delectus in unde nemo tempore cumque.</p>
+            </article>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <form action="#">
+                <div class="form-container">
+                    <div class="field">
+                        <label for="Name">Name:</label>
+                        <input type="text" placeholder="Name">
+                    </div>
+                    <div class="field">
+                        <label for="Phone">Phone Number:</label>
+                        <input type="tel" placeholder="Phone Number">
+                    </div>
+                    <div class="field w-100">
+                        <label for="Email">Email:</label>
+                        <input type="mail" placeholder="Email Address">
+                    </div>
+                    <div class="field w-100">
+                        <label for="Message">Message:</label>
+                        <textarea name="message" cols="20" rows="5"></textarea>
+                    </div>
+                </div>
+                <div class="submit-form">
+                    <input type="submit" class="button" value="Send">
+                </div>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
